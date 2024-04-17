@@ -102,6 +102,7 @@ body {
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
+    margin-top: 0px;
 }
 
 .login-button {
@@ -112,5 +113,9 @@ body {
 @media (max-width: 640px) {
     .logo {
         display: block;
+    }
+
+    .secondary-button {
+        margin-top: 200px;
     }
 }
