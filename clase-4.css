@@ -26,17 +26,10 @@ body {
     width: 300px;
 }
 
-.logo {
-    display:none;
-    width: 150px;
-    margin-bottom: 48px;
-    justify-self: center;    
-}
-
 .title {
     font-size: var(--lg);
-    margin-bottom: 12px;
-    text-align: center;
+    margin-bottom: 35px;
+    text-align: start;
 }
 .subtitle {
     color: var(--very-light-pink);
@@ -56,14 +49,6 @@ body {
     flex-direction: column;
 }
 
-.form a {
-    color: var(--hospital-green);
-    font-size: var(--sm);
-    text-align: center;
-    text-decoration: none;
-    margin-bottom: 52px;
-}
-
 .label {
     font-size: var(--sm);
     font-weight: bold;
@@ -80,10 +65,6 @@ body {
     margin-bottom: 12px;
 }
 
-.input-email {
-    margin-bottom: 22px;
-}
-
 .primary-button {
     background-color: var(--hospital-green);
     color: var(--white);
@@ -97,28 +78,19 @@ body {
     height: 50px;
 }
 
-.secondary-button {
-    background-color: var(--white);
-    color: var(--hospital-green);
-    border-radius: 8px;
-    border: 1px solid var(--hospital-green);    
-    width: 100%;
-    cursor: pointer;
-    font-size: var(--md);
-    font-weight: bold;
-    height: 50px;
-    margin-top: 0px;
-}
-
 .login-button {
     margin-top: 14px;
     margin-bottom: 30px;
 }
 
 @media (max-width: 640px) {
+
+    .title {
+        margin-top: 150px;
+    }
+
     .logo {
         display: block;
-        margin-top: 100px;
     }
 
     .form-container {
@@ -129,8 +101,4 @@ body {
         display: flex;
         justify-content: space-between;
     }
-
-    .secondary-button {
-        margin-bottom: 30px;
-    } 
 }
